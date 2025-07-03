@@ -1,0 +1,48 @@
+# Copy these environment variables to Vercel Dashboard
+# Go to Settings → Environment Variables and add each one
+
+# CRITICAL - Must have real values:
+OPENAI_API_KEY=your-real-openai-key-here
+ANTHROPIC_API_KEY=your-real-anthropic-key-here
+TAVILY_API_KEY=your-real-tavily-key-here
+BETTER_AUTH_SECRET=yW/j/OvrdeNK3NT7RWgnMAk6MbALlmPAzP/VJyYhGW4=
+CRON_SECRET=530a1ec744c6668c410cb8e144ab4e93
+ALLOWED_ORIGINS=https://*.vercel.app
+
+# DATABASE_URL will be automatically set by Vercel Postgres
+
+# Optional - Use placeholders for now:
+XAI_API_KEY=sk-placeholder-xai-key-min-length-required
+GROQ_API_KEY=gsk_placeholder-groq-key-replace-with-real-key
+GOOGLE_GENERATIVE_AI_API_KEY=placeholder-google-ai-key-replace-with-real
+DAYTONA_API_KEY=placeholder-daytona-api-key-not-essential
+REDIS_URL=redis://localhost:6379
+BLOB_READ_WRITE_TOKEN=placeholder-blob-token-not-essential-for-dev
+GITHUB_CLIENT_ID=placeholder-github-client-id-optional
+GITHUB_CLIENT_SECRET=placeholder-github-client-secret-optional
+GOOGLE_CLIENT_ID=placeholder-google-client-id-optional
+GOOGLE_CLIENT_SECRET=placeholder-google-client-secret-optional
+TWITTER_CLIENT_ID=placeholder-twitter-client-id-optional
+TWITTER_CLIENT_SECRET=placeholder-twitter-client-secret-optional
+EXA_API_KEY=placeholder-exa-api-key-optional-for-now
+FIRECRAWL_API_KEY=placeholder-firecrawl-api-key-optional
+TMDB_API_KEY=placeholder-tmdb-api-key-optional-for-movies
+YT_ENDPOINT=placeholder-youtube-endpoint-optional
+ELEVENLABS_API_KEY=placeholder-elevenlabs-api-key-optional
+GOOGLE_MAPS_API_KEY=placeholder-google-maps-api-key-optional
+MAPBOX_ACCESS_TOKEN=placeholder-mapbox-access-token-optional
+TRIPADVISOR_API_KEY=placeholder-tripadvisor-api-key-optional
+OPENWEATHER_API_KEY=placeholder-openweather-api-key-optional
+AVIATION_STACK_API_KEY=placeholder-aviation-stack-api-key-optional
+SANDBOX_TEMPLATE_ID=placeholder-sandbox-template-id-optional
+AMADEUS_API_KEY=placeholder-amadeus-api-key-optional
+AMADEUS_API_SECRET=placeholder-amadeus-api-secret-optional
+COINGECKO_API_KEY=placeholder-coingecko-api-key-optional
+MEM0_API_KEY=placeholder-mem0-api-key-optional
+MEM0_ORG_ID=placeholder-mem0-org-id-optional
+MEM0_PROJECT_ID=placeholder-mem0-project-id-optional
+SMITHERY_API_KEY=placeholder-smithery-api-key-optional
+NEXT_PUBLIC_MAPBOX_TOKEN=placeholder-public-mapbox-token-optional
+NEXT_PUBLIC_POSTHOG_KEY=placeholder-posthog-key-optional
+NEXT_PUBLIC_POSTHOG_HOST=https://placeholder-posthog-host.com
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=placeholder-public-google-maps-key-optional
